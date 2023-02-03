@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="./images/viona logo/viona-logo.svg" type="image/x-icon">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+   <title>Viona</title>
+</head>
+
+<body>
+   <div class="container">
+      <div class="navbar-top">
+         <div class="navbar-top-left">
+            <a href="tel:*1001"> <img src="./images/navbar-top/call.svg" alt=""></a>
+         </div>
+         <div class="navbar-top-right">
+            <a title="Facebook" href="https://www.facebook.com/"><img src="./images/navbar-top/facebook.svg" alt=""></a>
+            <a title="Linkedin" href="https://www.linkedin.com/feed/"><img src="./images/navbar-top/linkedin.svg"
+                  alt=""></a>
+            <a title="Twitter" href="https://twitter.com/home"><img src="./images/navbar-top/twitter.svg" alt=""></a>
+            <a title="Instagram" href="https://www.instagram.com/"><img src="./images/navbar-top/instagram.svg"
+                  alt=""></a>
+            <a title="YouTube" href="https://www.youtube.com/"><img src="./images/navbar-top/youtube.svg" alt=""></a>
+            <div class="vl"></div>
+            <div class="navbar-top-languages">
+               <a href="">Az</a>
+               <a href="">Ru</a>
+               <a href="">En</a>
+            </div>
+         </div>
+      </div>
+      <nav class="navbar navbar-expand-lg">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="viona-logo" src="./images/viona logo/viona-logo.svg"
+                  alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+               aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <form class="d-flex" role="search">
+                  <input class="form-control-input me-2" type="" placeholder="" aria-label="Search">
+                  <button class="btn search-button" type="submit"><img src="./images/navbar/search-icon.svg"
+                        alt=""></button>
+               </form>
+               <div class="navbar-right">
+                  <div class="navbar-right-section">
+                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                           <a class="nav-link" href="#"><img src="./images/navbar/bildiriş.svg" alt=""></a>
+                           <span>Fürsətlər</span>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#"><img src="./images/navbar/giriş.svg" alt=""></a>
+                           <span>Giriş</span>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#"><img src="./images/navbar/səbət.svg" alt=""></a>
+                           <span>Səbət</span>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#"><img src="./images/navbar/favori.svg" alt=""></a>
+                           <span>Favori</span>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="navbar-right-bottom">
+                     <div class="mebel-section">
+                        <img class="mebel-img" src="./images/mebel/divan.svg" alt="">
+                        <a href="" id="mebel">QONAQ OTAĞI</a>
+                     </div>
+                     <div class="mebel-section">
+                        <img class="mebel-img" src="./images/mebel/yataq-otagi.svg" alt="">
+                        <a href="" id="mebel">YATAQ OTAĞI</a>
+                     </div>
+                     <div class="mebel-section">
+                        <img class="mebel-img" src="./images/mebel/uşağ-otağı.svg" alt="">
+                        <a href="" id="mebel">UŞAQ OTAĞI</a>
+                     </div>
+                     <div class="mebel-section">
+                        <img class="mebel-img" src="./images/mebel/mətbəx.svg" alt="">
+                        <a href="" id="mebel">MƏTBƏX</a>
+                     </div>
+                     <div class="mebel-section">
+                        <img class="mebel-img" src="./images/mebel/stol-stul.svg" alt="">
+                        <a href="" id="mebel">STOL-STUL</a>
+                     </div>
+                     <div class="mebel-section">
+                        <img class="mebel-img" src="./images/mebel/yumşaq-mebel.svg" alt="">
+                        <a href="" id="mebel">YUMŞAQ MEBEL</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <section class="mebel">
+         <img class="mebel-img" src="./images/mebel/divan.svg" alt="">
+         <a href="" id="mebel">QONAQ OTAĞI</a>
+         <div class="vl"></div>
+         <img class="mebel-img" src="./images/mebel/yataq-otagi.svg" alt="">
+         <a href="" id="mebel">YATAQ OTAĞI</a>
+         <div class="vl"></div>
+         <img class="mebel-img" src="./images/mebel/uşağ-otağı.svg" alt="">
+         <a href="" id="mebel">UŞAQ OTAĞI</a>
+         <div class="vl"></div>
+         <img class="mebel-img" src="./images/mebel/mətbəx.svg" alt="">
+         <a href="" id="mebel">MƏTBƏX</a>
+         <div class="vl"></div>
+         <img class="mebel-img" src="./images/mebel/stol-stul.svg" alt="">
+         <a href="" id="mebel">STOL-STUL</a>
+         <div class="vl"></div>
+         <img class="mebel-img" src="./images/mebel/yumşaq-mebel.svg" alt="">
+         <a href="" id="mebel">YUMŞAQ MEBEL</a>
+      </section>
+      <div class="horizontal-line">
+         <h2 class="title">MƏHSULLAR</h2>
+         <div class="hl"></div>
+      </div>
+      <section class="product">
+         <div class="product-left">
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <img src="./images/product-img/main-img.svg" />
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./images/product-img/first-img.svg" />
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./images/product-img/second-img.svg" />
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./images/product-img/third-img.svg" />
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./images/product-img/fourth-img.svg" />
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./images/product-img/fifth-img.svg" />
+                  </div>
+               </div>
+               <div class="swiper-button-next"></div>
+               <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <img src="./images/product-img/main-img.svg" />
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./images/product-img/first-img.svg" />
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./images/product-img/second-img.svg" />
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./images/product-img/third-img.svg" />
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./images/product-img/fourth-img.svg" />
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./images/product-img/fifth-img.svg" />
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="product-right">
+            <h3 class="product-name">Kreslo</h3>
+            <div class="product-code">
+               <p class="code">Məhsulun kodu</p>
+               <p class="product-id">v2ghjkl345</p>
+            </div>
+            <div class="price">
+               <div class="pre-price">1.400<i class="fa-solid fa-manat-sign"></i></div>
+               <div class="current-price">1.190<i class="fa-solid fa-manat-sign"></i></div>
+            </div>
+            <h5 class="color-choice">Rəng seçimləri:</h5>
+            <div class="product-right-img">
+               <div class="product-color">
+                  <div class="img-product-border">
+                     <img src="./images/product-img/first-img.svg" alt="">
+                  </div>
+                  <span>Boz</span>
+               </div>
+               <div class="product-color">
+                  <div class="img-product-border">
+                     <img src="./images/product-img/mavi-img.svg" alt="">
+                  </div>
+                  <span>Mavi</span>
+               </div>
+               <div class="product-color">
+                  <div class="img-product-border">
+                     <img src="./images/product-img/bej.svg" alt="">
+                  </div>
+                  <span>Bej</span>
+               </div>
+               <div class="product-color">
+                  <div class="img-product-border">
+                     <img src="./images/product-img/cehrayi.svg" alt="">
+                  </div>
+                  <span>Çəhrayı</span>
+               </div>
+            </div>
+            <section class="button">
+               <div class="button-left">
+                  <button class="minus"><img src="./images/product-img/minus.svg" alt=""></button>
+                  <span id="number">1</span>
+                  <button class="plus"><img src="./images/product-img/plus.svg" alt=""></button>
+               </div>
+               <div class="button-right">Səbətə at</div>
+            </section>
+            <div class="details">
+               <div class="detail-name">
+                  <h4>Xüsusiyyətlər</h4>
+               </div>
+               <div class="detail-info">
+                  <div class="details-left">
+                     <div class="details-left-top">
+                        <span class="name-details">Hündürlük:</span>
+                        <span class="info-details">5 sm</span>
+                     </div>
+                     <div class="details-left-bottom">
+                        <span class="name-details">En:</span>
+                        <span class="info-details">180 sm</span>
+                     </div>
+                  </div>
+                  <div class="details-right">
+                     <div class="details-right-top">
+                        <span class="name-details">Dərinlik:</span>
+                        <span class="info-details">55</span>
+                     </div>
+                     <div class="details-right-bottom">
+                        <span class="info-details">2 oturacaqlı</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="more-info">
+               <!-- <p>
+                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Link with href
+                  </a>
+                  <button class="btn btn-primary btn-dropdown" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                     Təsviri <i class="fa-solid fa-arrow-down"></i>
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                  <div class="card card-body">
+                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                  </div>
+                </div> -->
+               <div class="dropdown">
+                  <button class="btn-dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">Təsviri <i
+                        class="fa-solid fa-arrow-down"></i></button>
+                  <div class="dropdown-menu">
+                     <p class="text-detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+                        only five centuries.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div class="horizontal-line">
+         <h2 class="title">OXŞAR MƏHSULLAR</h2>
+         <div class="hl"></div>
+      </div>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+         <div class="offcanvas-header">
+            <button type="button" class="btn-offcanvas" data-bs-dismiss="offcanvas" aria-label="Close">X</button>
+         </div>
+         <div class="offcanvas-body">
+            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="offcanvas-img">
+                        <img src="./images/swiper-img/divan.svg" class="d-block w-100" alt="...">
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="offcanvas-img">
+                        <img src="./images/swiper-img/jurnal-masasi.svg" class="d-block w-100" alt="...">
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="offcanvas-img">
+                        <img src="./images/swiper-img/stul.svg" class="d-block w-100" alt="...">
+                     </div>
+                  </div>
+               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+               </button>
+            </div>
+            <h3 class="product-name">Divan</h3>
+            <span class="product-id">v2ghjkl345</span>
+            <div class="offcanvas-price">
+               <span class="pre-price">3.700<i class="fa-solid fa-manat-sign"></i></span>
+               <span class="current-price">2.990<i class="fa-solid fa-manat-sign"></i></span>
+            </div>
+            <div class="details">
+               <div class="detail-name">
+                  <h4>Xüsusiyyətlər</h4>
+               </div>
+               <div class="detail-info">
+                  <div class="details-left">
+                     <div class="details-left-top">
+                        <span class="name-details">Hündürlük:</span>
+                        <span class="info-details">5 sm</span>
+                     </div>
+                     <div class="details-left-bottom">
+                        <span class="name-details">En:</span>
+                        <span class="info-details">180 sm</span>
+                     </div>
+                  </div>
+                  <div class="details-right">
+                     <div class="details-right-top">
+                        <span class="name-details">Dərinlik:</span>
+                        <span class="info-details">55</span>
+                     </div>
+                     <div class="details-right-bottom">
+                        <span class="info-details">2 oturacaqlı</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <button class="button-offcanvas">Ətraflı baxış</button>
+         </div>
+      </div>
+      <div class="swiper swiper-product my-swiper-product">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide-product" type="button" data-bs-toggle="offcanvas"
+               data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+               <img class="heart" src="./images/icons/heart.svg" alt="">
+               <div class="image-card">
+                  <img class="img-similar" src="./images/swiper-img/divan.svg" alt="" class="similar-products-img">
+               </div>
+               <h3 class="similar-products-name">Divan</h3>
+               <span class="similar-pro-id">v2ghjkl345</span>
+               <div class="similar-products-prices">
+                  <span class="pre-price-product">3.700 <i class="fa-solid fa-manat-sign"></i></span>
+                  <span class="current-price-product">2.990 <i class="fa-solid fa-manat-sign"></i></span>
+               </div>
+               <button class="btn-basket"><img src="./images/icons/basket.svg" alt=""> Səbətə at</button>
+            </div>
+
+            <div class="swiper-slide swiper-slide-product" type="button" data-bs-toggle="offcanvas"
+               data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+               <img class="heart" src="./images/icons/heart.svg" alt="">
+               <div class="image-card">
+                  <img class="img-similar" src="./images/swiper-img/divan-3.svg" alt="" class="similar-products-img">
+               </div>
+               <h3 class="similar-products-name">Divan</h3>
+               <span class="similar-pro-id">v2ghjkl345</span>
+               <div class="similar-products-prices">
+                  <span class="pre-price-product">3.700 <i class="fa-solid fa-manat-sign"></i></span>
+                  <span class="current-price-product">2.990 <i class="fa-solid fa-manat-sign"></i></span>
+               </div>
+               <button class="btn-basket"><img src="./images/icons/basket.svg" alt=""> Səbətə at</button>
+            </div>
+
+            <div class="swiper-slide swiper-slide-product" type="button" data-bs-toggle="offcanvas"
+               data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+               <img class="heart" src="./images/icons/heart.svg" alt="">
+               <div class="image-card">
+                  <img class="img-similar" src="./images/swiper-img/kreslo.svg" alt="" class="similar-products-img">
+               </div>
+               <h3 class="similar-products-name">Kreslo</h3>
+               <span class="similar-pro-id">v2ghjkl345</span>
+               <div class="similar-products-prices">
+                  <span class="current-price-product">1.190 <i class="fa-solid fa-manat-sign"></i></span>
+               </div>
+               <button class="btn-basket"><img src="./images/icons/basket.svg" alt=""> Səbətə at</button>
+            </div>
+
+            <div class="swiper-slide swiper-slide-product" type="button" data-bs-toggle="offcanvas"
+               data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+               <img class="heart" src="./images/icons/heart.svg" alt="">
+               <div class="image-card">
+                  <img class="img-similar" src="./images/swiper-img/divan-2.svg" alt="" class="similar-products-img">
+               </div>
+               <h3 class="similar-products-name">Divan</h3>
+               <span class="similar-pro-id">v2ghjkl345</span>
+               <div class="similar-products-prices">
+                  <span class="pre-price-product">3.700 <i class="fa-solid fa-manat-sign"></i></span>
+                  <span class="current-price-product">2.990<i class="fa-solid fa-manat-sign"></i></span>
+               </div>
+               <button class="btn-basket"><img src="./images/icons/basket.svg" alt=""> Səbətə at</button>
+            </div>
+
+            <div class="swiper-slide swiper-slide-product" type="button" data-bs-toggle="offcanvas"
+               data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+               <img class="heart" src="./images/icons/heart.svg" alt="">
+               <div class="image-card">
+                  <img class="img-similar" src="./images/swiper-img/divan-4.svg" alt="" class="similar-products-img">
+               </div>
+               <h3 class="similar-products-name">Divan</h3>
+               <span class="similar-pro-id">v2ghjkl345</span>
+               <div class="similar-products-prices">
+                  <span class="pre-price-product">3.700 <i class="fa-solid fa-manat-sign"></i></span>
+                  <span class="current-price-product">2.990<i class="fa-solid fa-manat-sign"></i></span>
+               </div>
+               <button class="btn-basket"><img src="./images/icons/basket.svg" alt=""> Səbətə at</button>
+            </div>
+
+            <div class="swiper-slide swiper-slide-product" type="button" data-bs-toggle="offcanvas"
+               data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+               <img class="heart" src="./images/icons/heart.svg" alt="">
+               <div class="image-card">
+                  <img class="img-similar" src="./images/swiper-img/divan-2.svg" alt="" class="similar-products-img">
+               </div>
+               <h3 class="similar-products-name">Divan</h3>
+               <span class="similar-pro-id">v2ghjkl345</span>
+               <div class="similar-products-prices">
+                  <span class="pre-price-product">3.700 <i class="fa-solid fa-manat-sign"></i></span>
+                  <span class="current-price-product">2.990<i class="fa-solid fa-manat-sign"></i></span>
+               </div>
+               <button class="btn-basket"><img src="./images/icons/basket.svg" alt=""> Səbətə at</button>
+            </div>
+
+         </div>
+         <div class="swiper-pagination"></div>
+      </div>
+
+
+      <div class="horizontal-line">
+         <h2 class="title">BİRLİKDƏ ALINANLAR</h2>
+         <div class="hl"></div>
+      </div>
+
+      <div class="swiper swiper-product my-swiper-product">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide-product" type="button" data-bs-toggle="offcanvas"
+               data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+               <img class="heart" src="./images/icons/heart.svg" alt="">
+               <div class="image-card">
+                  <img class="img-similar" src="./images/swiper-img/stul.svg" alt="" class="similar-products-img">
+               </div>
+               <h3 class="similar-products-name">Divan</h3>
+               <span class="similar-pro-id">v2ghjkl345</span>
+               <div class="similar-products-prices">
+                  <span class="pre-price-product">3.700 <i class="fa-solid fa-manat-sign"></i></span>
+                  <span class="current-price-product">2.990 <i class="fa-solid fa-manat-sign"></i></span>
+               </div>
+               <button class="btn-basket"><img src="./images/icons/basket.svg" alt=""> Səbətə at</button>
+            </div>
+
+            <div class="swiper-slide swiper-slide-product" type="button" data-bs-toggle="offcanvas"
+               data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+               <img class="heart" src="./images/icons/heart.svg" alt="">
+               <div class="image-card">
+                  <img class="img-similar" src="./images/swiper-img/jurnal-masasi.svg" alt=""
+                     class="similar-products-img">
+               </div>
+               <h3 class="similar-products-name">Divan</h3>
+               <span class="similar-pro-id">v2ghjkl345</span>
+               <div class="similar-products-prices">
+                  <span class="pre-price-product">3.700 <i class="fa-solid fa-manat-sign"></i></span>
+                  <span class="current-price-product">2.990 <i class="fa-solid fa-manat-sign"></i></span>
+               </div>
+               <button class="btn-basket"><img src="./images/icons/basket.svg" alt=""> Səbətə at</button>
+            </div>
+
+            <div class="swiper-slide swiper-slide-product" type="button" data-bs-toggle="offcanvas"
+               data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+               <img class="heart" src="./images/icons/heart.svg" alt="">
+               <div class="image-card">
+                  <img class="img-similar" src="./images/swiper-img/jurnal.svg" alt="" class="similar-products-img">
+               </div>
+               <h3 class="similar-products-name">Kreslo</h3>
+               <span class="similar-pro-id">v2ghjkl345</span>
+               <div class="similar-products-prices">
+                  <span class="current-price-product">1.190 <i class="fa-solid fa-manat-sign"></i></span>
+               </div>
+               <button class="btn-basket"><img src="./images/icons/basket.svg" alt=""> Səbətə at</button>
+            </div>
+            <div class="swiper-slide swiper-slide-product" type="button" data-bs-toggle="offcanvas"
+               data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+               <img class="heart" src="./images/icons/heart.svg" alt="">
+               <div class="image-card">
+                  <img class="img-similar" src="./images/swiper-img/stul.svg" alt="" class="similar-products-img">
+               </div>
+               <h3 class="similar-products-name">Divan</h3>
+               <span class="similar-pro-id">v2ghjkl345</span>
+               <div class="similar-products-prices">
+                  <span class="pre-price-product">3.700 <i class="fa-solid fa-manat-sign"></i></span>
+                  <span class="current-price-product">2.990 <i class="fa-solid fa-manat-sign"></i></span>
+               </div>
+               <button class="btn-basket"><img src="./images/icons/basket.svg" alt=""> Səbətə at</button>
+            </div>
+
+            <div class="swiper-slide swiper-slide-product" type="button" data-bs-toggle="offcanvas"
+               data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+               <img class="heart" src="./images/icons/heart.svg" alt="">
+               <div class="image-card">
+                  <img class="img-similar" src="./images/swiper-img/jurnal-masasi.svg" alt=""
+                     class="similar-products-img">
+               </div>
+               <h3 class="similar-products-name">Divan</h3>
+               <span class="similar-pro-id">v2ghjkl345</span>
+               <div class="similar-products-prices">
+                  <span class="pre-price-product">3.700 <i class="fa-solid fa-manat-sign"></i></span>
+                  <span class="current-price-product">2.990 <i class="fa-solid fa-manat-sign"></i></span>
+               </div>
+               <button class="btn-basket"><img src="./images/icons/basket.svg" alt=""> Səbətə at</button>
+            </div>
+
+            <div class="swiper-slide swiper-slide-product" type="button" data-bs-toggle="offcanvas"
+               data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+               <img class="heart" src="./images/icons/heart.svg" alt="">
+               <div class="image-card">
+                  <img class="img-similar" src="./images/swiper-img/jurnal.svg" alt="" class="similar-products-img">
+               </div>
+               <h3 class="similar-products-name">Kreslo</h3>
+               <span class="similar-pro-id">v2ghjkl345</span>
+               <div class="similar-products-prices">
+                  <span class="current-price-product">1.190 <i class="fa-solid fa-manat-sign"></i></span>
+               </div>
+               <button class="btn-basket"><img src="./images/icons/basket.svg" alt=""> Səbətə at</button>
+            </div>
+
+         </div>
+         <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="horizontal-line">
+         <h2 class="title">MÜŞTƏRİ RƏYLƏRİ</h2>
+         <div class="hl"></div>
+      </div>
+      <section class="feedback">
+         <div class="customer-comment">
+            <div class="customer-comment-left">
+               <img src="./images/feedback/profile.svg" alt="">
+               <img src="./images/feedback/star.svg" alt="">
+            </div>
+            <div class="customer-comment-right">
+               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dolore quam velit expedita aperiam,
+                  harum ducimus assumenda aspernatur pariatur exercitationem.</span>
+            </div>
+         </div>
+         <div class="customer-comment">
+            <div class="customer-comment-left">
+               <img src="./images/feedback/profile.svg" alt="">
+               <img src="./images/feedback/star.svg" alt="">
+            </div>
+            <div class="customer-comment-right">
+               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dolore quam velit expedita aperiam,
+                  harum ducimus assumenda aspernatur pariatur exercitationem.</span>
+            </div>
+         </div>
+      </section>
+      <div class="footer">
+         <div class="footer-logo">
+            <img src="./images/viona logo/viona-logo-2.svg" alt="">
+         </div>
+         <div class="footer-info">
+            <div class="footer-left">
+               <a href="" class="footer-a">Haqqımızda</a>
+               <a href="" class="footer-a">Məhsullar</a>
+               <a href="" class="footer-a">Mağazalarımız</a>
+               <a href="" class="footer-a">Əlaqə</a>
+            </div>
+            <div class="footer-middle">
+               <a href="" class="footer-a">Şikayət və təkliflər</a>
+               <a href="" class="footer-a">Vakansiyalar</a>
+               <a href="" class="footer-a">FAQ</a>
+            </div>
+            <div class="footer-right">
+               <a class="footer-call" href="tel:*1001">*1001</a>
+               <a class="footer-call" href="tel:0552256789">0552256789</a>
+               <div class="footer-hl"></div>
+               <div class="footer-icons">
+                  <a title="Facebook" href="https://www.facebook.com/"><img src="./images/footer/fb.svg" alt=""></a>
+                  <a title="Twitter" href="https://twitter.com/home"><img src="./images/footer/twitter.svg" alt=""></a>
+                  <a title="Instagram" href="https://www.instagram.com/"><img src="./images/footer//instagram.svg"
+                        alt=""></a>
+                  <a title="YouTube" href="https://www.youtube.com/"><img src="./images/footer//youtube.svg" alt=""></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+   <script src="./script.js"></script>
+</body>
+
+</html>
